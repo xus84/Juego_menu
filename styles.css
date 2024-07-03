@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+#game {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#elaboraciones, #ingredientes {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#ingredientes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingrediente {
+    width: 48%;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.ingrediente.selected {
+    background-color: #d3d3d3;
+}
+
+.elaboracion {
+    cursor: pointer;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#enviarIntento {
+    display: block; /* Asegura que el botón ocupe una línea completa */
+    margin: 20px auto; /* Centra el botón horizontalmente */
+    padding: 10px 20px; /* Añade relleno al botón */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+#enviarIntento:hover {
+    background-color: #45a049; /* Color de fondo al pasar el ratón */
+}

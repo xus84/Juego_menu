@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Ingredientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul id="menu">
+            <li data-section="platosCombinados">Platos Combinados</li>
+            <li data-section="bocados">Bocados</li>
+            <li data-section="sartenes">Sartenes</li>
+            <li data-section="ensaladas">Ensaladas</li>
+            <li data-section="sandwiches">Sandwiches</li>
+            <li data-section="hamburguesas">Hamburguesas</li>
+        </ul>
+    </nav>
+
+    <div id="resultado">
+        <button id="enviarIntento" style="display:none;">Enviar Intento</button>
+        <p id="mensaje"></p>
+    </div>
+
+    <div id="game">
+        <div id="elaboraciones">
+            <!-- Aquí se cargarán los nombres de las elaboraciones -->
+        </div>
+        <div id="ingredientes">
+            <!-- Aquí se cargarán los nombres de los ingredientes -->
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
